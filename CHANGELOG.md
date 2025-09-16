@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Masutayunikon/Portfolio-w7/compare/v1.0.0...v1.0.1) (2025-09-16)
+
+
+### Bug Fixes
+
+* add pnpm-lock.yaml ([1c4eb83](https://github.com/Masutayunikon/Portfolio-w7/commit/1c4eb8346676d3d364d8735a1e86b962751da9af))
+
 ## 1.0.0 (2025-09-16)
 
 
