@@ -18,8 +18,16 @@ export default defineNuxtConfig({
         port: process.env.SMTP_PORT,
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,
-        toEmail: process.env.TO_EMAIL,
-        fromEmail: process.env.FROM_EMAIL,
+        toEmail: process.env.SMTP_TO_EMAIL,
+        fromEmail: process.env.SMTP_FROM_EMAIL,
     },
+  },
+  app: {
+      head: {
+          title: 'Portfolio de Yunikon', // default fallback title
+          htmlAttrs: {
+              lang: 'fr',
+          },
+      }
   }
 })

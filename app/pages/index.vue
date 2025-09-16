@@ -58,7 +58,7 @@
       <!-- chaque fenêtre réactive les events pour elle-même -->
       <WindowsWindow
           v-model:is-open="openWindow.blog"
-          title="Mon CV"
+          title="Blog"
           :width="'800px'"
           :height="'600px'"
           class="pointer-events-auto"
