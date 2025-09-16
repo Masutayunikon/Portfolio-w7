@@ -1,0 +1,9 @@
+.prose :where(code):not(:where(pre code)) {
+    @apply bg-gray-900/70 border border-gray-700 px-1.5 py-0.5 rounded;
+}
+.prose :where(blockquote) {
+    @apply border-l-4 border-blue-400/60 bg-blue-500/10 rounded;
+}
+.prose :where(hr) {
+    @apply border-gray-700/60;
+}

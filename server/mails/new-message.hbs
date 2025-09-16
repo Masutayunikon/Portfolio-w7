@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nouveau message reçu</title>
+</head>
+<body style="margin:0; padding:0; font-family: Arial, sans-serif; background:#f5f7fa; color:#333;">
+<table role="presentation" style="width:100%; border-collapse:collapse;">
+  <tr>
+    <td style="padding:30px;">
+      <table role="presentation" style="max-width:600px; width:100%; background:#ffffff; border-radius:8px; overflow:hidden; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+
+        <!-- Header -->
+        <tr>
+          <td style="background:#4f46e5; padding:20px; text-align:center; color:#fff;">
+            <h1 style="margin:0; font-size:20px;">📩 Nouveau message pour toi !</h1>
+          </td>
+        </tr>
+
+        <!-- Body -->
+        <tr>
+          <td style="padding:20px;">
+            <p style="margin:0 0 15px 0; font-size:16px;">
+              Hey 👋, tu viens de recevoir un message de
+              <strong>{{name}}</strong>.
+            </p>
+
+            <p style="margin:0 0 10px 0; font-size:15px;">
+              <strong>Sujet :</strong> {{subject}}
+            </p>
+
+            <div style="margin:15px 0; padding:15px; background:#f3f4f6; border-left:4px solid #4f46e5; font-size:14px; line-height:1.5;">
+              {{message}}
+            </div>
+
+            <p style="margin-top:20px; font-size:14px; color:#555;">
+              Pense à répondre dès que possible 😉
+            </p>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td style="background:#f9fafb; padding:15px; text-align:center; font-size:12px; color:#999;">
+            Cet e-mail a été généré automatiquement par ton portfolio ✨
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
