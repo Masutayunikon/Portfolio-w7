@@ -3,7 +3,7 @@ title: "Créer un serveur multimédia automatisé avec Jellyfin et les apps *ARR
 description: "Un guide pour installer Jellyfin, l’écosystème *ARR* et automatiser la gestion de votre médiathèque."
 date: 2025-09-16
 draft: false
-tags: ["jellyfin", "docker", "runtipi", "arr", "automation", "sonarr", "radarr", "prowlarr", "qbittorrent"]
+tags: ["jellyfin", "runtipi", "arr", "automation", "sonarr", "radarr", "prowlarr", "qbittorrent"]
 ---
 
 
