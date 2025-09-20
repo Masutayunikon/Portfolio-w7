@@ -486,6 +486,7 @@ const skills = ref<Skill[]>([
     description: `5 ans d’usage en scripts personnels et mini-projets (automatisation, prototypes, Clash of Code).`,
     projects: [
       { name: 'ABI – Automate by Image', url: 'https://github.com/Masutayunikon/ABI' },
+      { name: 'One-Piece-Kaï-Organizer', url: 'https://github.com/Masutayunikon/One-Piece-Kai-Organizer', note: 'script pour organiser One Piece Kaï ultimate pack pour jellyfin'}
     ],
   },
   {
