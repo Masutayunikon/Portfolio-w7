@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Masutayunikon/Portfolio-w7/compare/v1.1.0...v1.2.0) (2025-09-20)
+
+
+### Features
+
+* maj cv et skills ([abde2e2](https://github.com/Masutayunikon/Portfolio-w7/commit/abde2e2bce8dbc0752a9ff079125d8a311659795))
+
 ## [1.1.0](https://github.com/Masutayunikon/Portfolio-w7/compare/v1.0.1...v1.1.0) (2025-09-16)
 
 
